@@ -1,0 +1,43 @@
+
+.svg-filters {
+  position: absolute;
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+}
+
+@font-face {
+  font-family: "Passio";
+  src: url("assets/Passio-Graphis.otf") format("opentype");
+}
+*{
+  font-family: 'Passio';
+  font-size: 5vh;
+  background-size:contain;
+  background-repeat: no-repeat;
+  // text-transform: uppercase;
+
+
+}
+
+.text{
+
+  color:rgba(255,105,180,1);
+  position: absolute;
+  font-size: 1.5em;
+  background-color: rgba(0,0,0,0);
+  text-align: center;
+   text-shadow: 2px 1px rgba(255,105,180,0.5);
+   align-content: center;
+   align-items: center;
+   margin-left: 7vw;
+   font-weight: bold;
+   -webkit-filter: url("#filter");
+   filter: url("#filter");
+
+
+}
+canvas{
+
+
+}
